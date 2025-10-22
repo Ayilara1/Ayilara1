@@ -16,6 +16,9 @@ My journey as an Electrical and Electronics Engineer has nurtured a deep passion
 * **Security Concepts:** OWASP Top 10, Network Protocols (TCP/IP, DNS, HTTPS), Cryptography (PKI, AES)
 * **Forensics:** Autopsy, Volatility, FTK Imager
 * **Scripting:** Bash, Python (Beginner)
+* **SIEM Tools:** Wazuh, Microsoft Sentinel, Splunk
+* **IDS and IPS:** Suricata, Snort
+* **Firewall-based Software:** Opnsense, Pfsense
   
 ## Skills in Security Operation Center (SOC)
 
