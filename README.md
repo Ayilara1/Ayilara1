@@ -1,16 +1,23 @@
 # Hello, I'm Aylilara Busari
 <a href="https://linkedin.com/busari-ayilara"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+* **Email:** [ayilaratoyin2@gmail.com]
 
-##Brief Introduction 
+## Brief Introduction 
 
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+I am a cybersecurity enthusiast and student passionate about protecting digital environments. I have hands-on experience in penetration testing, SOC analysis, network security, and digital forensics.
 
 ## Objective
 
-My journey as an Electrical and Electronics Engineer has nurtured a deep passion for technology and problem-solving, now fueling my transition into cybersecurity. Having gained foundational knowledge in ethical hacking, penetration testing, and vulnerability scanning, I’m committed to further developing my expertise in this field. My goal is to begin my cybersecurity career as a Tier 1 Analyst in a Security Operations Center (SOC), where I can leverage my analytical skills to protect and secure critical systems.
+My journey as an Electrical and Electronics Engineer has nurtured a deep passion for technology and problem-solving, now fueling my transition into cybersecurity. Having gained foundational knowledge in ethical hacking, penetration testing, vulnerability scanning, and Digital forensics, I’m committed to further developing my expertise in this field. My goal is to begin my cybersecurity career as a Tier 1 Analyst in a Security Operations Center (SOC), where I can leverage my analytical skills to protect and secure critical systems.
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
+* **Penetration Testing:** Nmap, Wireshark, Metasploit, Burp Suite, sqlmap, John the Ripper
+* **Operating Systems:** Linux (Kali, Ubuntu), Windows Server, Active Directory
+* **Security Concepts:** OWASP Top 10, Network Protocols (TCP/IP, DNS, HTTPS), Cryptography (PKI, AES)
+* **Forensics:** Autopsy, Volatility, FTK Imager
+* **Scripting:** Bash, Python (Beginner)
+  
+## Skills in Security Operation Center (SOC)
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
@@ -18,23 +25,23 @@ My journey as an Electrical and Electronics Engineer has nurtured a deep passion
 | Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
 | Security Automation with Shuffle SOAR         | SOC Automation Lab|
 | Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
+|                                               | SOC Automation Lab|
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Network
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
     <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
     <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Snort-777BB4?style=for-the-badge&logo=snort&logoColor=white" alt="Snort badge" />
 </div>
 
 ### Endpoint
 <div>
     <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
+    
 </div>
 
 ### SIEM
@@ -42,18 +49,39 @@ My journey as an Electrical and Electronics Engineer has nurtured a deep passion
     <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
     <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Wazuh-005571?&style=for-the-badge&logo=Wazuh&logoColor=white" />
 </div>
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
 <div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-CCD-000080?&style=for-the-badge&logoColor=white" />
+<p align="center">
+  <img src="https://img.shields.io/badge/-(ISC)%C2%B2-00693E?style=for-the-badge&logo=ISC2&logoColor=white" alt="(ISC)²" />
+  <img src="https://img.shields.io/badge/-Network%20Defense-2F80ED?style=for-the-badge&logo=shield&logoColor=white" />
+  <img src="https://img.shields.io/badge/-AIG%20Shields%20Up%3A%20Cybersecurity%20Job%20Simulation-1E90FF?style=for-the-badge&logo=aig&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Career%20Essentials%20in%20Cybersecurity-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/-LinkedIn%20Learning-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</p>
 </div>
 
-## Projects
-- Detection Lab
-- SOC Automation Project
+## My Projects
+
+Here are the repositories for the labs and projects I've completed:
+
+* **[OS-and-Linux-Security-Labs](link-to-your-repo)**
+    * A collection of labs on Linux hardening, user access control, and OS fundamentals.
+
+* **[Network-Security-Labs](link-to-your-repo)**
+    * Hands-on exercises in packet analysis, firewall configuration, and securing network protocols.
+
+* **[Web-Application-Security-Labs](link-to-your-repo)**
+    * A deep dive into the OWASP Top 10, including SQLi, XSS, and session management vulnerabilities.
+
+* **[Cryptography-Labs](link-to-your-repo)**
+    * Practical application of encryption algorithms, hashing, and public key infrastructure.
+
+* **[Digital-Forensics-Labs](link-to-your-repo)**
+    * Labs covering file system analysis, memory forensics, and basic incident response techniques.
+
+* **[Malware-Analysis-Labs](link-to-your-repo)**
+    * Labs covering dynamic analysis and Static analysis.
+
