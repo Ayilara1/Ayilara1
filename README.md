@@ -73,16 +73,16 @@ Here are the repositories for the labs and projects I've completed:
 * **[OS-and-Linux-Security-Labs](https://github.com/Ayilara1/OS-and-Linux-Security-Labs)**
     * A collection of labs on Linux hardening, user access control, and OS fundamentals.
 
-* **[Network-Security-Labs](link-to-your-repo)**
+* **[Network-Security-Labs](https://github.com/Ayilara1/Network-Security-Labs)**
     * Hands-on exercises in packet analysis, firewall configuration, and securing network protocols.
 
-* **[Web-Application-Security-Labs](link-to-your-repo)**
+* **[Web-Application-Security-Labs](https://github.com/Ayilara1/Web-Application-Security-Labs)**
     * A deep dive into the OWASP Top 10, including SQLi, XSS, and session management vulnerabilities.
 
-* **[Cryptography-Labs](link-to-your-repo)**
+* **[Cryptography-Labs](https://github.com/Ayilara1/Cryptography-Labs)**
     * Practical application of encryption algorithms, hashing, and public key infrastructure.
 
-* **[Digital-Forensics-Labs](link-to-your-repo)**
+* **[Digital-Forensics-Labs](https://github.com/Ayilara1/Digital-Forensics-Labs)**
     * Labs covering file system analysis, memory forensics, and basic incident response techniques.
 
 * **[Malware-Analysis-Labs](link-to-your-repo)**
