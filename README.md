@@ -70,7 +70,7 @@ My journey as an Electrical and Electronics Engineer has nurtured a deep passion
 
 Here are the repositories for the labs and projects I've completed:
 
-* **[OS-and-Linux-Security-Labs](OS-and-Linux-Security-Labs)**
+* **[OS-and-Linux-Security-Labs](https://github.com/Ayilara1/OS-and-Linux-Security-Labs)**
     * A collection of labs on Linux hardening, user access control, and OS fundamentals.
 
 * **[Network-Security-Labs](link-to-your-repo)**
