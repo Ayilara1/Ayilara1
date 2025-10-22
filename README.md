@@ -85,6 +85,6 @@ Here are the repositories for the labs and projects I've completed:
 * **[Digital-Forensics-Labs](https://github.com/Ayilara1/Digital-Forensics-Labs)**
     * Labs covering file system analysis, memory forensics, and basic incident response techniques.
 
-* **[Malware-Analysis-Labs](link-to-your-repo)**
+* **[Malware-Analysis-Labs](https://github.com/Ayilara1/Malware-Analysis)**
     * Labs covering dynamic analysis and Static analysis.
 
