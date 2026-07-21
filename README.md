@@ -58,6 +58,7 @@ My journey as an Electrical and Electronics Engineer has nurtured a deep passion
 ## Certifications
 <div>
 <p align="center">
+  <img src="[https://img.shields.io/badge](https://courses.redteamleaders.com/exam-completion/9c027d10a72e7b83)/-(ISC)%C2%B2-00693E?style=for-the-badge&logo=ISC2&logoColor=white" alt="(ISC)²" />
   <img src="https://img.shields.io/badge/-(ISC)%C2%B2-00693E?style=for-the-badge&logo=ISC2&logoColor=white" alt="(ISC)²" />
   <img src="https://img.shields.io/badge/-Network%20Defense-2F80ED?style=for-the-badge&logo=shield&logoColor=white" />
   <img src="https://img.shields.io/badge/-AIG%20Shields%20Up%3A%20Cybersecurity%20Job%20Simulation-1E90FF?style=for-the-badge&logo=aig&logoColor=white" />
