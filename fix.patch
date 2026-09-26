@@ -1,0 +1,48 @@
+diff --git a/learner/deployment.yaml b/learner/deployment.yaml
+index 34d4076..24564b8 100644
+--- a/learner/deployment.yaml
++++ b/learner/deployment.yaml
+@@ -21,6 +21,7 @@ spec:
+       labels:
+         app: kolo-ledger
+     spec:
++      terminationGracePeriodSeconds: 30
+       containers:
+         - name: ledger
+           image: kolo-ledger:latest
+@@ -28,6 +29,15 @@ spec:
+           ports:
+             - containerPort: 8000
+               name: http
++          lifecycle:
++            preStop:
++              exec:
++                command:
++                  - /bin/sh
++                  - -c
++                  - |
++                    echo "draining in-flight requests"
++                    sleep 10
+           env:
+             - name: DATABASE_URL
+               value: "postgresql://kolo:kolo_secure_pass@kolo-postgres:5432/kolo_db"
+@@ -42,11 +52,16 @@ spec:
+             httpGet:
+               path: /healthz
+               port: 8000
+-            initialDelaySeconds: 1
++            initialDelaySeconds: 5
+             periodSeconds: 2
++            timeoutSeconds: 2
++            failureThreshold: 3
+           livenessProbe:
+             httpGet:
+               path: /healthz
+               port: 8000
+-            initialDelaySeconds: 3
++            initialDelaySeconds: 10
+             periodSeconds: 5
++            timeoutSeconds: 2
++            failureThreshold: 3
++            
+\ No newline at end of file

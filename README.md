@@ -32,4 +32,4 @@ You have been provided with authentic forensic artifacts captured directly from 
 1. **Root Cause Analysis**: Explain the exact race condition causing the 502 errors. Why did the errors only occur during the rolling update despite the pods being healthy?
 2. **Decoy Analysis**: Explain why the alignment with pod lifecycle events misled the on-call engineer into suspecting application crashes.
 3. **Mechanical Chain**: Detail the asynchronous sequence between Kubelet `SIGTERM`, process termination, and EndpointSlice/iptables deregistration across the cluster.
-4. **Remediation**: Provide the exact Kubernetes deployment patch to eliminate the 502 errors and guarantee zero dropped in-flight requests.
+4.                                      **Remediation**: Provide the exact Kubernetes deployment patch to eliminate the 502 errors and guarantee zero dropped in-flight requests.
