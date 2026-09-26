@@ -1,0 +1,108 @@
+LAST SEEN   TYPE      REASON                   OBJECT                               MESSAGE
+24m         Warning   Unhealthy                pod/kolo-backend-776f59d89b-sjcfz    Readiness probe failed: Get "http://10.244.0.13:8000/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+24m         Warning   Unhealthy                pod/kolo-backend-776f59d89b-hpkwm    Readiness probe failed: Get "http://10.244.0.14:8000/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+58m         Warning   Unhealthy                pod/kolo-backend-776f59d89b-hpkwm    Readiness probe failed: Get "http://10.244.0.14:8000/healthz": dial tcp 10.244.0.14:8000: i/o timeout (Client.Timeout exceeded while awaiting headers)
+33m         Warning   FailedToUpdateEndpoint   endpoints/kolo-backend-svc           Failed to update endpoint cc03-test/kolo-backend-svc: Operation cannot be fulfilled on endpoints "kolo-backend-svc": the object has been modified; please apply your changes to the latest version and try again
+22m         Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled up replica set kolo-backend-6f79cfcfb to 1
+22m         Normal    SuccessfulCreate         replicaset/kolo-backend-6f79cfcfb    Created pod: kolo-backend-6f79cfcfb-6q84l
+22m         Normal    Scheduled                pod/kolo-backend-6f79cfcfb-6q84l     Successfully assigned cc03-test/kolo-backend-6f79cfcfb-6q84l to kolo-test-control-plane
+22m         Normal    Created                  pod/kolo-backend-6f79cfcfb-6q84l     Created container backend
+22m         Normal    Started                  pod/kolo-backend-6f79cfcfb-6q84l     Started container backend
+22m         Normal    Pulled                   pod/kolo-backend-6f79cfcfb-6q84l     Container image "python:3.11-slim" already present on machine
+22m         Normal    Created                  pod/kolo-backend-6f79cfcfb-vgbhn     Created container backend
+22m         Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled up replica set kolo-backend-6f79cfcfb to 2 from 1
+22m         Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled down replica set kolo-backend-776f59d89b to 1 from 2
+22m         Normal    SuccessfulCreate         replicaset/kolo-backend-6f79cfcfb    Created pod: kolo-backend-6f79cfcfb-vgbhn
+22m         Normal    Scheduled                pod/kolo-backend-6f79cfcfb-vgbhn     Successfully assigned cc03-test/kolo-backend-6f79cfcfb-vgbhn to kolo-test-control-plane
+22m         Normal    Pulled                   pod/kolo-backend-6f79cfcfb-vgbhn     Container image "python:3.11-slim" already present on machine
+22m         Normal    SuccessfulDelete         replicaset/kolo-backend-776f59d89b   Deleted pod: kolo-backend-776f59d89b-sjcfz
+22m         Normal    Started                  pod/kolo-backend-6f79cfcfb-vgbhn     Started container backend
+22m         Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled down replica set kolo-backend-776f59d89b to 0 from 1
+22m         Normal    SuccessfulDelete         replicaset/kolo-backend-776f59d89b   Deleted pod: kolo-backend-776f59d89b-hpkwm
+12m         Warning   Unhealthy                pod/kolo-backend-6f79cfcfb-6q84l     Readiness probe failed: Get "http://10.244.0.15:8000/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+12m         Warning   Unhealthy                pod/kolo-backend-6f79cfcfb-vgbhn     Readiness probe failed: Get "http://10.244.0.16:8000/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+16m         Warning   Unhealthy                pod/kolo-backend-6f79cfcfb-vgbhn     Readiness probe failed: Get "http://10.244.0.16:8000/healthz": dial tcp 10.244.0.16:8000: i/o timeout (Client.Timeout exceeded while awaiting headers)
+20m         Warning   Unhealthy                pod/kolo-backend-6f79cfcfb-6q84l     Readiness probe failed: Get "http://10.244.0.15:8000/healthz": dial tcp 10.244.0.15:8000: i/o timeout (Client.Timeout exceeded while awaiting headers)
+5m21s       Normal    Scheduled                pod/kolo-backend-6788b677b5-9hwkv    Successfully assigned cc03-test/kolo-backend-6788b677b5-9hwkv to kolo-test-control-plane
+5m21s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled up replica set kolo-backend-6788b677b5 to 1
+5m21s       Normal    SuccessfulCreate         replicaset/kolo-backend-6788b677b5   Created pod: kolo-backend-6788b677b5-9hwkv
+5m20s       Normal    Pulled                   pod/kolo-backend-6788b677b5-9hwkv    Container image "python:3.11-slim" already present on machine
+5m20s       Normal    Created                  pod/kolo-backend-6788b677b5-9hwkv    Created container backend
+5m20s       Normal    Started                  pod/kolo-backend-6788b677b5-9hwkv    Started container backend
+5m18s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled down replica set kolo-backend-6f79cfcfb to 1 from 2
+5m18s       Normal    SuccessfulDelete         replicaset/kolo-backend-6f79cfcfb    Deleted pod: kolo-backend-6f79cfcfb-vgbhn
+5m18s       Normal    Killing                  pod/kolo-backend-6f79cfcfb-vgbhn     Stopping container backend
+5m18s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled up replica set kolo-backend-6788b677b5 to 2 from 1
+5m17s       Normal    SuccessfulCreate         replicaset/kolo-backend-6788b677b5   Created pod: kolo-backend-6788b677b5-jzw4j
+5m16s       Normal    Scheduled                pod/kolo-backend-6788b677b5-jzw4j    Successfully assigned cc03-test/kolo-backend-6788b677b5-jzw4j to kolo-test-control-plane
+5m16s       Normal    Pulled                   pod/kolo-backend-6788b677b5-jzw4j    Container image "python:3.11-slim" already present on machine
+5m16s       Normal    Created                  pod/kolo-backend-6788b677b5-jzw4j    Created container backend
+5m16s       Normal    Started                  pod/kolo-backend-6788b677b5-jzw4j    Started container backend
+5m15s       Warning   Unhealthy                pod/kolo-backend-6788b677b5-jzw4j    Readiness probe failed: Get "http://10.244.0.18:8000/healthz": dial tcp 10.244.0.18:8000: connect: connection refused
+5m15s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled down replica set kolo-backend-6f79cfcfb to 0 from 1
+5m14s       Normal    Killing                  pod/kolo-backend-6f79cfcfb-6q84l     Stopping container backend
+5m14s       Normal    SuccessfulDelete         replicaset/kolo-backend-6f79cfcfb    Deleted pod: kolo-backend-6f79cfcfb-6q84l
+3m47s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled up replica set kolo-backend-dd4b87d47 to 1
+3m47s       Normal    SuccessfulCreate         replicaset/kolo-backend-dd4b87d47    Created pod: kolo-backend-dd4b87d47-8xb8r
+3m47s       Normal    Scheduled                pod/kolo-backend-dd4b87d47-8xb8r     Successfully assigned cc03-test/kolo-backend-dd4b87d47-8xb8r to kolo-test-control-plane
+3m46s       Normal    Started                  pod/kolo-backend-dd4b87d47-8xb8r     Started container backend
+3m46s       Normal    Pulled                   pod/kolo-backend-dd4b87d47-8xb8r     Container image "python:3.11-slim" already present on machine
+3m46s       Normal    Created                  pod/kolo-backend-dd4b87d47-8xb8r     Created container backend
+3m45s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled up replica set kolo-backend-dd4b87d47 to 2 from 1
+3m45s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled down replica set kolo-backend-6788b677b5 to 1 from 2
+3m45s       Normal    Scheduled                pod/kolo-backend-dd4b87d47-7k2s2     Successfully assigned cc03-test/kolo-backend-dd4b87d47-7k2s2 to kolo-test-control-plane
+3m45s       Normal    SuccessfulDelete         replicaset/kolo-backend-6788b677b5   Deleted pod: kolo-backend-6788b677b5-jzw4j
+3m45s       Normal    SuccessfulCreate         replicaset/kolo-backend-dd4b87d47    Created pod: kolo-backend-dd4b87d47-7k2s2
+3m45s       Normal    Killing                  pod/kolo-backend-6788b677b5-jzw4j    Stopping container backend
+3m44s       Normal    Started                  pod/kolo-backend-dd4b87d47-7k2s2     Started container backend
+3m44s       Normal    Pulled                   pod/kolo-backend-dd4b87d47-7k2s2     Container image "python:3.11-slim" already present on machine
+3m44s       Normal    Created                  pod/kolo-backend-dd4b87d47-7k2s2     Created container backend
+3m43s       Normal    SuccessfulDelete         replicaset/kolo-backend-6788b677b5   Deleted pod: kolo-backend-6788b677b5-9hwkv
+3m43s       Normal    Killing                  pod/kolo-backend-6788b677b5-9hwkv    Stopping container backend
+3m43s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled down replica set kolo-backend-6788b677b5 to 0 from 1
+2m44s       Normal    Scheduled                pod/kolo-backend-66875559fc-fg562    Successfully assigned cc03-test/kolo-backend-66875559fc-fg562 to kolo-test-control-plane
+2m44s       Normal    SuccessfulCreate         replicaset/kolo-backend-66875559fc   Created pod: kolo-backend-66875559fc-fg562
+2m44s       Normal    ScalingReplicaSet        deployment/kolo-backend              Scaled up replica set kolo-backend-66875559fc to 1
+2m43s       Normal    Pulled                   pod/kolo-backend-66875559fc-fg562    Container image "python:3.11-slim" already present on machine
+2m43s       Normal    Created                  pod/kolo-backend-66875559fc-fg562    Created container backend
+2m43s       Normal    Started                  pod/kolo-backend-66875559fc-fg562    Started container backend
+2m42s       Normal    SuccessfulDelete         replicaset/kolo-backend-dd4b87d47    Deleted pod: kolo-backend-dd4b87d47-8xb8r
+3s          Normal    ScalingReplicaSet        deployment/kolo-backend              (combined from similar events): Scaled down replica set kolo-backend-579fd94d46 to 0 from 1
+2m41s       Normal    SuccessfulCreate         replicaset/kolo-backend-66875559fc   Created pod: kolo-backend-66875559fc-llrdt
+2m41s       Normal    Scheduled                pod/kolo-backend-66875559fc-llrdt    Successfully assigned cc03-test/kolo-backend-66875559fc-llrdt to kolo-test-control-plane
+2m41s       Normal    Pulled                   pod/kolo-backend-66875559fc-llrdt    Container image "python:3.11-slim" already present on machine
+2m41s       Normal    Created                  pod/kolo-backend-66875559fc-llrdt    Created container backend
+2m41s       Normal    Killing                  pod/kolo-backend-dd4b87d47-8xb8r     Stopping container backend
+2m41s       Normal    Started                  pod/kolo-backend-66875559fc-llrdt    Started container backend
+2m38s       Normal    Killing                  pod/kolo-backend-dd4b87d47-7k2s2     Stopping container backend
+2m38s       Normal    SuccessfulDelete         replicaset/kolo-backend-dd4b87d47    Deleted pod: kolo-backend-dd4b87d47-7k2s2
+2m36s       Warning   Unhealthy                pod/kolo-backend-66875559fc-llrdt    Readiness probe failed: Get "http://10.244.0.22:8000/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2m4s        Normal    Scheduled                pod/kolo-backend-579fd94d46-ltrvc    Successfully assigned cc03-test/kolo-backend-579fd94d46-ltrvc to kolo-test-control-plane
+2m4s        Normal    SuccessfulCreate         replicaset/kolo-backend-579fd94d46   Created pod: kolo-backend-579fd94d46-ltrvc
+2m3s        Normal    Pulled                   pod/kolo-backend-579fd94d46-ltrvc    Container image "python:3.11-slim" already present on machine
+2m3s        Normal    Started                  pod/kolo-backend-579fd94d46-ltrvc    Started container backend
+2m3s        Normal    Created                  pod/kolo-backend-579fd94d46-ltrvc    Created container backend
+2m1s        Normal    SuccessfulDelete         replicaset/kolo-backend-66875559fc   Deleted pod: kolo-backend-66875559fc-fg562
+2m1s        Normal    Scheduled                pod/kolo-backend-579fd94d46-7mxwn    Successfully assigned cc03-test/kolo-backend-579fd94d46-7mxwn to kolo-test-control-plane
+2m1s        Normal    SuccessfulCreate         replicaset/kolo-backend-579fd94d46   Created pod: kolo-backend-579fd94d46-7mxwn
+2m1s        Normal    Killing                  pod/kolo-backend-66875559fc-fg562    Stopping container backend
+2m1s        Normal    Created                  pod/kolo-backend-579fd94d46-7mxwn    Created container backend
+2m1s        Normal    Pulled                   pod/kolo-backend-579fd94d46-7mxwn    Container image "python:3.11-slim" already present on machine
+2m          Normal    Started                  pod/kolo-backend-579fd94d46-7mxwn    Started container backend
+119s        Normal    SuccessfulDelete         replicaset/kolo-backend-66875559fc   Deleted pod: kolo-backend-66875559fc-llrdt
+119s        Normal    Killing                  pod/kolo-backend-66875559fc-llrdt    Stopping container backend
+8s          Normal    Scheduled                pod/kolo-backend-6df674998c-7f99d    Successfully assigned cc03-test/kolo-backend-6df674998c-7f99d to kolo-test-control-plane
+8s          Normal    SuccessfulCreate         replicaset/kolo-backend-6df674998c   Created pod: kolo-backend-6df674998c-7f99d
+7s          Normal    Started                  pod/kolo-backend-6df674998c-7f99d    Started container backend
+7s          Normal    Pulled                   pod/kolo-backend-6df674998c-7f99d    Container image "python:3.11-slim" already present on machine
+7s          Normal    Created                  pod/kolo-backend-6df674998c-7f99d    Created container backend
+5s          Normal    SuccessfulCreate         replicaset/kolo-backend-6df674998c   Created pod: kolo-backend-6df674998c-9h5d4
+5s          Normal    Killing                  pod/kolo-backend-579fd94d46-ltrvc    Stopping container backend
+5s          Normal    Scheduled                pod/kolo-backend-6df674998c-9h5d4    Successfully assigned cc03-test/kolo-backend-6df674998c-9h5d4 to kolo-test-control-plane
+5s          Normal    Pulled                   pod/kolo-backend-6df674998c-9h5d4    Container image "python:3.11-slim" already present on machine
+5s          Normal    SuccessfulDelete         replicaset/kolo-backend-579fd94d46   Deleted pod: kolo-backend-579fd94d46-ltrvc
+4s          Warning   Unhealthy                pod/kolo-backend-579fd94d46-7mxwn    Readiness probe failed: Get "http://10.244.0.24:8000/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+4s          Normal    Created                  pod/kolo-backend-6df674998c-9h5d4    Created container backend
+4s          Normal    Started                  pod/kolo-backend-6df674998c-9h5d4    Started container backend
+3s          Normal    SuccessfulDelete         replicaset/kolo-backend-579fd94d46   Deleted pod: kolo-backend-579fd94d46-7mxwn
+3s          Normal    Killing                  pod/kolo-backend-579fd94d46-7mxwn    Stopping container backend
